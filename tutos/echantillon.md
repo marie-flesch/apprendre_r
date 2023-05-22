@@ -44,7 +44,7 @@ Je vais vous montrer deux méthodes : la première utilise des fonctions de base
 ### Avec les fonctions de base
 On va utiliser un jeu de données disponible sur le site de l'INSEE (que vous pouvez télécharger [ici](https://github.com/marie-flesch/apprendre_r/blob/main/data/population_communes_france.csv)) qui indique la population de chaque commune française. 
 
-Je le charge dans R, en lui donnant le nom `pop et je l'inspecte rapidement : 
+Je le charge dans R, en lui donnant le nom `pop` et je l'inspecte rapidement : 
 ```pop <- read.csv("population_communes_france.csv")
 head(pop)
 > head(pop)
@@ -106,7 +106,7 @@ Alors, comment je savais qu'il y a 34980 lignes dans le dataframe ? Et bien j'ai
 > nrow(pop)
 [1] 34980
 ```
-On peut aussi enchâsser cette fonction dans la fonction `sample`, de cette façon, ici pour avoir un échantillon de cinq lignes : 
+On peut aussi enchâsser cette fonction dans la fonction `sample()`, de cette façon, ici pour avoir un échantillon de cinq lignes : 
 ```
 > pop[sample(nrow(pop), 5), ] 
            commune population           région
