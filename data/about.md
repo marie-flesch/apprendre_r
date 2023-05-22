@@ -1,6 +1,6 @@
 # À propos
 
-Les jeux de données disponibles dans ce dépôt accompagnent la chaine YouTube Apprendre R. 
+Les jeux de données disponibles dans ce dépôt accompagnent les tutoriels de la chaine YouTube Apprendre R. 
 
 ## Comment télécharger les données ? 
 Les données prennent la forme de fichiers .csv. Pour les télécharger, il faut : 
